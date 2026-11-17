@@ -1,0 +1,1701 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design para o Teu Negócio</title>
+<meta name="description" content="Curso prático de design gráfico para empreendedores e pequenos negócios.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,800&family=DM+Sans:opsz,wght@9..40,400;9..40,500;9..40,700&family=Playfair+Display&family=Lora:wght@400;700&family=Merriweather&family=Montserrat:wght@400;700&family=Poppins&family=Caveat&family=Pacifico&family=Dancing+Script&family=Bebas+Neue&family=Abril+Fatface&family=Space+Mono&family=IBM+Plex+Mono&family=Source+Sans+3&family=Nunito:wght@400;700&family=Inter:wght@400;700&display=swap">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-disc="0">
+<canvas id="bg" aria-hidden="true"></canvas>
+
+<header class="topbar">
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" title="Índice (M)">
+    <span></span><span></span><span></span><span class="sr">Índice</span>
+  </button>
+  <a class="brand" href="#/1">Design <em>para o</em> Teu Negócio</a>
+  <p class="where" aria-live="polite"></p>
+</header>
+
+<nav id="menu" class="menu" aria-label="Índice do curso" hidden>
+  <ol><li>
+  <a href="#/1" class="nav-disc" data-disc="0">Introdução</a>
+  
+</li><li>
+  <a href="#/7" class="nav-disc" data-disc="1"><span class="nav-num">1</span>Pensar antes de desenhar</a>
+  <ol><li><a href="#/8"><span class="nav-id">1.1</span>Para que serve o design</a></li><li><a href="#/11"><span class="nav-id">1.2</span>Conhecer o teu cliente</a></li><li><a href="#/14"><span class="nav-id">1.3</span>A personalidade da tua marca em 3 palavras</a></li><li><a href="#/17"><span class="nav-id">1.4</span>O moodboard</a></li><li><a href="#/20"><span class="nav-id">✎</span>Exercício</a></li><li><a href="#/21"><span class="nav-id">?</span>Mini quiz</a></li></ol>
+</li><li>
+  <a href="#/23" class="nav-disc" data-disc="2"><span class="nav-num">2</span>Cor</a>
+  <ol><li><a href="#/24"><span class="nav-id">2.1</span>Como a cor comunica</a></li><li><a href="#/27"><span class="nav-id">2.2</span>Construir uma paleta: a regra 60-30-10</a></li><li><a href="#/30"><span class="nav-id">2.3</span>Contraste e legibilidade</a></li><li><a href="#/33"><span class="nav-id">✎</span>Exercício</a></li><li><a href="#/34"><span class="nav-id">?</span>Mini quiz</a></li></ol>
+</li><li>
+  <a href="#/36" class="nav-disc" data-disc="3"><span class="nav-num">3</span>Tipografia</a>
+  <ol><li><a href="#/37"><span class="nav-id">3.1</span>Famílias de letra e o que transmitem</a></li><li><a href="#/40"><span class="nav-id">3.2</span>Combinar duas fontes</a></li><li><a href="#/43"><span class="nav-id">3.3</span>Hierarquia: o que se lê primeiro</a></li><li><a href="#/46"><span class="nav-id">✎</span>Exercício</a></li><li><a href="#/47"><span class="nav-id">?</span>Mini quiz</a></li></ol>
+</li><li>
+  <a href="#/49" class="nav-disc" data-disc="4"><span class="nav-num">4</span>Composição e layout</a>
+  <ol><li><a href="#/50"><span class="nav-id">4.1</span>Espaço em branco: o teu melhor amigo</a></li><li><a href="#/53"><span class="nav-id">4.2</span>Alinhamento e grelha</a></li><li><a href="#/56"><span class="nav-id">4.3</span>Os 4 princípios: contraste, repetição, alinhamento, proximidade</a></li><li><a href="#/59"><span class="nav-id">4.4</span>O ponto focal</a></li><li><a href="#/62"><span class="nav-id">✎</span>Exercício</a></li><li><a href="#/63"><span class="nav-id">?</span>Mini quiz</a></li></ol>
+</li><li>
+  <a href="#/65" class="nav-disc" data-disc="5"><span class="nav-num">5</span>Logótipo e identidade</a>
+  <ol><li><a href="#/66"><span class="nav-id">5.1</span>Tipos de logótipo</a></li><li><a href="#/69"><span class="nav-id">5.2</span>Simplicidade e escala</a></li><li><a href="#/72"><span class="nav-id">5.3</span>As versões do logótipo</a></li><li><a href="#/75"><span class="nav-id">✎</span>Exercício</a></li><li><a href="#/76"><span class="nav-id">?</span>Mini quiz</a></li></ol>
+</li><li>
+  <a href="#/78" class="nav-disc" data-disc="6"><span class="nav-num">6</span>Design no dia a dia</a>
+  <ol><li><a href="#/79"><span class="nav-id">6.1</span>Posts para redes sociais</a></li><li><a href="#/82"><span class="nav-id">6.2</span>Cartão de visita, flyer e menu</a></li><li><a href="#/85"><span class="nav-id">6.3</span>O guia de marca de 1 página</a></li><li><a href="#/88"><span class="nav-id">6.4</span>Os erros mais comuns (e a checklist final)</a></li><li><a href="#/91"><span class="nav-id">✎</span>Exercício</a></li><li><a href="#/92"><span class="nav-id">?</span>Mini quiz</a></li></ol>
+</li><li>
+  <a href="#/94" class="nav-disc" data-disc="7">Conclusão</a>
+  
+</li></ol>
+</nav>
+
+<main class="deck" aria-live="polite">
+<section class="slide cover" data-disc="0" data-anchor="inicio" aria-roledescription="slide" aria-label="Design para o Teu Negócio" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Curso prático · ~3 horas</p>
+    <h2 class="title">Design para o Teu Negócio</h2>
+    <p class="chip">O essencial do design gráfico em 3 horas</p>
+    <div class="body"><blockquote>
+<p>Um curso prático para empreendedores e pequenos negócios que querem criar uma imagem profissional sem contratar um designer, e sem precisar de nenhum programa em particular.</p>
+</blockquote>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="0" aria-roledescription="slide" aria-label="Para quem é" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Sobre o curso</p>
+    <h2 class="title">Para quem é</h2>
+    
+    <div class="body"><ul>
+<li>Donos de pequenos negócios, freelancers e criadores de conteúdo.</li>
+<li>Quem faz os próprios posts, flyers ou cartões e sente que &quot;falta qualquer coisa&quot;.</li>
+<li>Não é preciso experiência nem nenhum programa em particular: os conceitos aplicam-se no Canva, Figma, Photoshop, PowerPoint ou em papel e lápis.</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="0" aria-roledescription="slide" aria-label="Como funciona" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Sobre o curso</p>
+    <h2 class="title">Como funciona</h2>
+    
+    <div class="body"><p>Ao longo do curso vais construir <strong>a identidade visual do teu próprio negócio</strong>. Cada disciplina termina com um exercício que acrescenta uma peça. No fim tens um <strong>kit de marca</strong> pronto a usar:</p>
+<table>
+<thead>
+<tr>
+<th>Disciplina</th>
+<th>Peça que constróis</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1. Pensar antes de desenhar</td>
+<td>Ficha da marca + moodboard</td>
+</tr>
+<tr>
+<td>2. Cor</td>
+<td>Paleta de cores com códigos</td>
+</tr>
+<tr>
+<td>3. Tipografia</td>
+<td>Par de fontes + escala de tamanhos</td>
+</tr>
+<tr>
+<td>4. Composição e layout</td>
+<td>Um flyer redesenhado (antes/depois)</td>
+</tr>
+<tr>
+<td>5. Logótipo e identidade</td>
+<td>Logótipo simples + variações</td>
+</tr>
+<tr>
+<td>6. Design no dia a dia</td>
+<td>Guia de marca de 1 página + 3 peças reais</td>
+</tr>
+</tbody></table>
+<p>Para tornar tudo concreto, acompanhamos um negócio fictício: a <strong>Padaria Ló</strong>, uma padaria de bairro que quer parecer mais profissional sem perder o lado acolhedor.</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="0" aria-roledescription="slide" aria-label="Estrutura de cada aula" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Sobre o curso</p>
+    <h2 class="title">Estrutura de cada aula</h2>
+    
+    <div class="body"><ol>
+<li><strong>Conceito</strong>: a ideia em poucas linhas.</li>
+<li><strong>Exemplo</strong>: o certo e o errado, lado a lado.</li>
+<li><strong>Dica prática</strong>: o que fazer já.</li>
+</ol>
+<p>No fim de cada disciplina: <strong>exercício</strong> + <strong>mini quiz</strong> de 3 perguntas + <strong>resumo</strong>.</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="0" aria-roledescription="slide" aria-label="Programa" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Sobre o curso</p>
+    <h2 class="title">Programa</h2>
+    
+    <div class="body"><table>
+<thead>
+<tr>
+<th>#</th>
+<th>Disciplina</th>
+<th>Aulas</th>
+<th>Duração</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>1</td>
+<td><a href="#d1">Pensar antes de desenhar</a></td>
+<td>4</td>
+<td>~30 min</td>
+</tr>
+<tr>
+<td>2</td>
+<td><a href="#d2">Cor</a></td>
+<td>3</td>
+<td>~30 min</td>
+</tr>
+<tr>
+<td>3</td>
+<td><a href="#d3">Tipografia</a></td>
+<td>3</td>
+<td>~30 min</td>
+</tr>
+<tr>
+<td>4</td>
+<td><a href="#d4">Composição e layout</a></td>
+<td>4</td>
+<td>~35 min</td>
+</tr>
+<tr>
+<td>5</td>
+<td><a href="#d5">Logótipo e identidade</a></td>
+<td>3</td>
+<td>~25 min</td>
+</tr>
+<tr>
+<td>6</td>
+<td><a href="#d6">Design no dia a dia</a></td>
+<td>4</td>
+<td>~35 min</td>
+</tr>
+<tr>
+<td></td>
+<td><strong>Total</strong></td>
+<td><strong>21 aulas</strong></td>
+<td><strong>~3h</strong></td>
+</tr>
+</tbody></table>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="0" aria-roledescription="slide" aria-label="O que levas no fim" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Sobre o curso</p>
+    <h2 class="title">O que levas no fim</h2>
+    
+    <div class="body"><ul>
+<li>Uma marca com personalidade definida e coerente.</li>
+<li>Paleta de cores, fontes e logótipo prontos a usar.</li>
+<li>Um guia de marca de 1 página para não voltares a improvisar.</li>
+<li>Uma checklist para rever qualquer peça antes de a publicar.</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide cover" data-disc="1" data-anchor="d1" aria-roledescription="slide" aria-label="Pensar antes de desenhar" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 1</p>
+    <h2 class="title">Pensar antes de desenhar</h2>
+    
+    <div class="body"><p><strong>Objetivo:</strong> perceber que o bom design começa antes de abrir qualquer programa, e definir a personalidade da tua marca.<br><strong>Duração:</strong> ~30 min · 4 aulas<br><strong>Peça que constróis:</strong> ficha da marca + moodboard</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="1" data-lesson="1.1" aria-roledescription="slide" aria-label="Para que serve o design" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 1 · Aula 1.1</p>
+    <h2 class="title">Para que serve o design</h2>
+    <p class="chip">Conceito</p>
+    <div class="body"><p>Design não é &quot;pôr bonito&quot;. É <strong>comunicar uma mensagem de forma clara, à pessoa certa</strong>. Um bom design faz três coisas:</p>
+<ol>
+<li><strong>Chama a atenção</strong> de quem interessa.</li>
+<li><strong>Explica</strong> rapidamente o que é e o que se pretende.</li>
+<li><strong>Transmite confiança</strong>, porque um negócio com imagem cuidada parece um negócio cuidado.</li>
+</ol>
+<p>Se uma peça é bonita mas ninguém percebe o que se vende, falhou. Se é simples mas clara, funcionou.</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="1" data-lesson="1.1" aria-roledescription="slide" aria-label="Para que serve o design" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 1 · Aula 1.1</p>
+    <h2 class="title">Para que serve o design</h2>
+    <p class="chip">Exemplo</p>
+    <div class="body"><ul>
+<li>❌ Um flyer da Padaria Ló com 6 fontes, 8 cores, fotos de pão, bolos, café, sumos e a morada em letra pequenina no canto. Tem tudo, mas não se lê nada.</li>
+<li>✅ Um flyer com uma foto grande de pão quente, a frase &quot;Pão a sair do forno às 7h&quot; e a morada bem visível. Uma mensagem, entendida em 3 segundos.</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="1" data-lesson="1.1" aria-roledescription="slide" aria-label="Para que serve o design" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 1 · Aula 1.1</p>
+    <h2 class="title">Para que serve o design</h2>
+    <p class="chip">Dica prática</p>
+    <div class="body"><p>Antes de qualquer peça, escreve numa frase: <strong>&quot;Quero que [quem] perceba [o quê] e faça [ação].&quot;</strong><br>Exemplo: <em>&quot;Quero que os vizinhos percebam que temos pão fresco às 7h e passem cá antes do trabalho.&quot;</em></p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="1" data-lesson="1.2" aria-roledescription="slide" aria-label="Conhecer o teu cliente" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 1 · Aula 1.2</p>
+    <h2 class="title">Conhecer o teu cliente</h2>
+    <p class="chip">Conceito</p>
+    <div class="body"><p>Não desenhas para ti, desenhas para o teu cliente. O mesmo produto vende-se de maneiras diferentes consoante quem o compra. Um bolo para uma avó e um bolo para um casamento pedem visuais completamente diferentes.</p>
+<p>Responde a 4 perguntas:</p>
+<ol>
+<li><strong>Quem é?</strong> (idade, estilo de vida, onde vive)</li>
+<li><strong>O que procura?</strong> (preço, qualidade, rapidez, exclusividade, conforto)</li>
+<li><strong>Onde te encontra?</strong> (Instagram, rua, Google, passa-palavra)</li>
+<li><strong>O que o faz confiar?</strong> (tradição, modernidade, recomendações, preço claro)</li>
+</ol>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="1" data-lesson="1.2" aria-roledescription="slide" aria-label="Conhecer o teu cliente" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 1 · Aula 1.2</p>
+    <h2 class="title">Conhecer o teu cliente</h2>
+    <p class="chip">Exemplo</p>
+    <div class="body"><p>A Padaria Ló:</p>
+<ul>
+<li><strong>Quem:</strong> famílias e trabalhadores do bairro, 30–65 anos.</li>
+<li><strong>O que procura:</strong> pão fresco, simpatia, preço justo.</li>
+<li><strong>Onde a encontra:</strong> a passar na rua, Google Maps, Facebook do bairro.</li>
+<li><strong>O que a faz confiar:</strong> ar caseiro, tradição, limpeza.</li>
+</ul>
+<p>Conclusão: a Padaria Ló <strong>não</strong> deve ter uma imagem futurista e fria. Deve parecer acolhedora, honesta e cuidada.</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="1" data-lesson="1.2" aria-roledescription="slide" aria-label="Conhecer o teu cliente" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 1 · Aula 1.2</p>
+    <h2 class="title">Conhecer o teu cliente</h2>
+    <p class="chip">Dica prática</p>
+    <div class="body"><p>Dá um nome ao teu cliente ideal (&quot;a Dona Rosa&quot;, &quot;o Miguel&quot;) e pergunta-te sempre: <em>&quot;A Dona Rosa percebia isto? Gostava disto?&quot;</em></p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="1" data-lesson="1.3" aria-roledescription="slide" aria-label="A personalidade da tua marca em 3 palavras" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 1 · Aula 1.3</p>
+    <h2 class="title">A personalidade da tua marca em 3 palavras</h2>
+    <p class="chip">Conceito</p>
+    <div class="body"><p>Uma marca é como uma pessoa: tem uma personalidade. Se a definires, todas as decisões seguintes (cores, fontes, fotos, textos) ficam mais fáceis, porque passas a ter um critério.</p>
+<p>Escolhe <strong>3 adjetivos</strong> que descrevem como queres que as pessoas sintam a tua marca. Depois escolhe <strong>1 coisa que a tua marca NÃO é</strong>, porque ajuda tanto quanto o resto.</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="1" data-lesson="1.3" aria-roledescription="slide" aria-label="A personalidade da tua marca em 3 palavras" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 1 · Aula 1.3</p>
+    <h2 class="title">A personalidade da tua marca em 3 palavras</h2>
+    <p class="chip">Exemplo</p>
+    <div class="body"><table>
+<thead>
+<tr>
+<th>Negócio</th>
+<th>3 palavras</th>
+<th>NÃO é</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Padaria Ló</td>
+<td>Acolhedora, tradicional, fresca</td>
+<td>Luxuosa</td>
+</tr>
+<tr>
+<td>Ginásio de bairro</td>
+<td>Enérgico, motivador, próximo</td>
+<td>Intimidante</td>
+</tr>
+<tr>
+<td>Contabilista freelancer</td>
+<td>Fiável, claro, organizado</td>
+<td>Aborrecido</td>
+</tr>
+</tbody></table>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="1" data-lesson="1.3" aria-roledescription="slide" aria-label="A personalidade da tua marca em 3 palavras" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 1 · Aula 1.3</p>
+    <h2 class="title">A personalidade da tua marca em 3 palavras</h2>
+    <p class="chip">Dica prática</p>
+    <div class="body"><p>Evita palavras vagas como &quot;bonita&quot;, &quot;moderna&quot; ou &quot;profissional&quot;: todas as marcas querem ser isso. Procura palavras que te <strong>distingam</strong> da concorrência.</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="1" data-lesson="1.4" aria-roledescription="slide" aria-label="O moodboard" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 1 · Aula 1.4</p>
+    <h2 class="title">O moodboard</h2>
+    <p class="chip">Conceito</p>
+    <div class="body"><p>Um <strong>moodboard</strong> é um painel de imagens que mostra o ambiente visual da tua marca. Serve para veres a personalidade antes de desenhares qualquer coisa. Junta imagens de:</p>
+<ul>
+<li>Cores e texturas que combinam com as tuas 3 palavras.</li>
+<li>Fontes e letreiros de que gostas.</li>
+<li>Fotos com o ambiente certo (luz, pessoas, objetos).</li>
+<li>Marcas que admiras (de qualquer setor, não só do teu).</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="1" data-lesson="1.4" aria-roledescription="slide" aria-label="O moodboard" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 1 · Aula 1.4</p>
+    <h2 class="title">O moodboard</h2>
+    <p class="chip">Exemplo</p>
+    <div class="body"><p>Moodboard da Padaria Ló: madeira clara, farinha, linho cru, luz da manhã, tons de trigo e terracota, letreiros pintados à mão de lojas antigas, mãos a amassar pão.</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="1" data-lesson="1.4" aria-roledescription="slide" aria-label="O moodboard" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 1 · Aula 1.4</p>
+    <h2 class="title">O moodboard</h2>
+    <p class="chip">Dica prática</p>
+    <div class="body"><ul>
+<li>8 a 15 imagens chegam. Mais do que isso fica confuso.</li>
+<li>Fontes de imagens: Pinterest, Unsplash, fotos tuas, revistas recortadas.</li>
+<li>No fim, olha para o painel e pergunta: <strong>&quot;Isto transmite as minhas 3 palavras?&quot;</strong> Se uma imagem não encaixa, tira-a.</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide exercise" data-disc="1" aria-roledescription="slide" aria-label="Ficha da marca + moodboard" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 1 · Exercício</p>
+    <h2 class="title">Ficha da marca + moodboard</h2>
+    <p class="chip">Mãos à obra</p>
+    <div class="body"><p>Preenche a tua <strong>ficha da marca</strong>:</p>
+<div class="ficha"><button class="copy" type="button">Copiar</button><pre><code>Nome do negócio: ____________________
+O que faço (1 frase): ____________________
+Cliente ideal (nome + descrição): ____________________
+O que ele procura: ____________________
+Onde me encontra: ____________________
+3 palavras da minha marca: ________ · ________ · ________
+A minha marca NÃO é: ____________________
+</code></pre></div>
+<p>Depois cria um <strong>moodboard</strong> com 8–15 imagens que transmitam essas 3 palavras.</p>
+<p><strong>Guarda os dois. Vais usá-los em todas as disciplinas seguintes.</strong></p>
+</div>
+  </div>
+</section>
+<section class="slide quiz" data-disc="1" aria-roledescription="slide" aria-label="Testa o que aprendeste" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 1 · Mini quiz</p>
+    <h2 class="title">Testa o que aprendeste</h2>
+    
+    <div class="body"><div class="quiz"><fieldset class="q" data-correct="b">
+      <legend><span class="qn">1</span>Qual é a função principal do design?</legend>
+      <div class="opts"><button type="button" class="opt" data-key="a"><span class="ok">a</span>Tornar as coisas bonitas</button><button type="button" class="opt" data-key="b"><span class="ok">b</span>Comunicar uma mensagem clara à pessoa certa</button><button type="button" class="opt" data-key="c"><span class="ok">c</span>Usar as últimas tendências</button></div>
+      <p class="feedback" aria-live="polite"></p>
+    </fieldset><fieldset class="q" data-correct="b">
+      <legend><span class="qn">2</span>Porque é que é útil dizer o que a tua marca NÃO é?</legend>
+      <div class="opts"><button type="button" class="opt" data-key="a"><span class="ok">a</span>Não é útil</button><button type="button" class="opt" data-key="b"><span class="ok">b</span>Ajuda a tomar decisões e a evitar estilos errados</button><button type="button" class="opt" data-key="c"><span class="ok">c</span>Para preencher a ficha</button></div>
+      <p class="feedback" aria-live="polite"></p>
+    </fieldset><fieldset class="q" data-correct="b">
+      <legend><span class="qn">3</span>Quantas imagens deve ter, idealmente, um moodboard?</legend>
+      <div class="opts"><button type="button" class="opt" data-key="a"><span class="ok">a</span>2–3</button><button type="button" class="opt" data-key="b"><span class="ok">b</span>8–15</button><button type="button" class="opt" data-key="c"><span class="ok">c</span>50 ou mais</button></div>
+      <p class="feedback" aria-live="polite"></p>
+    </fieldset><p class="score" aria-live="polite"></p></div></div>
+  </div>
+</section>
+<section class="slide summary" data-disc="1" aria-roledescription="slide" aria-label="Pensar antes de desenhar" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 1 · Resumo</p>
+    <h2 class="title">Pensar antes de desenhar</h2>
+    
+    <div class="body"><ul>
+<li>Design é comunicação: uma mensagem, para uma pessoa, com uma ação.</li>
+<li>Desenhas para o teu cliente, não para ti.</li>
+<li>3 palavras + 1 &quot;não é&quot; definem a personalidade da marca.</li>
+<li>O moodboard torna essa personalidade visível antes de desenhares.</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide cover" data-disc="2" data-anchor="d2" aria-roledescription="slide" aria-label="Cor" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 2</p>
+    <h2 class="title">Cor</h2>
+    
+    <div class="body"><p><strong>Objetivo:</strong> escolher uma paleta de cores que transmita a personalidade da marca e funcione na prática.<br><strong>Duração:</strong> ~30 min · 3 aulas<br><strong>Peça que constróis:</strong> paleta de 3–5 cores com códigos</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="2" data-lesson="2.1" aria-roledescription="slide" aria-label="Como a cor comunica" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 2 · Aula 2.1</p>
+    <h2 class="title">Como a cor comunica</h2>
+    <p class="chip">Conceito</p>
+    <div class="body"><p>A cor é a primeira coisa que o cérebro processa, antes da forma e do texto. Cada cor tem associações (que variam um pouco com a cultura e o contexto):</p>
+<table>
+<thead>
+<tr>
+<th>Cor</th>
+<th>Associações comuns</th>
+<th>Exemplo de uso</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>🔴 Vermelho</td>
+<td>Energia, urgência, paixão, apetite</td>
+<td>Promoções, restauração</td>
+</tr>
+<tr>
+<td>🟠 Laranja</td>
+<td>Alegria, acessível, criativo</td>
+<td>Marcas jovens, comida</td>
+</tr>
+<tr>
+<td>🟡 Amarelo</td>
+<td>Otimismo, atenção, luz</td>
+<td>Destaques, crianças</td>
+</tr>
+<tr>
+<td>🟢 Verde</td>
+<td>Natureza, saúde, equilíbrio</td>
+<td>Bio, bem-estar, finanças</td>
+</tr>
+<tr>
+<td>🔵 Azul</td>
+<td>Confiança, calma, profissional</td>
+<td>Bancos, saúde, tecnologia</td>
+</tr>
+<tr>
+<td>🟣 Roxo</td>
+<td>Criatividade, luxo, mistério</td>
+<td>Beleza, espiritualidade</td>
+</tr>
+<tr>
+<td>🟤 Castanho/terra</td>
+<td>Tradição, natural, artesanal</td>
+<td>Padarias, café, artesanato</td>
+</tr>
+<tr>
+<td>⚫ Preto</td>
+<td>Elegância, força, sofisticação</td>
+<td>Moda, luxo</td>
+</tr>
+<tr>
+<td>⚪ Branco/neutros</td>
+<td>Limpeza, simplicidade, espaço</td>
+<td>Base de quase tudo</td>
+</tr>
+</tbody></table>
+<p>Mais importante do que a cor em si é o <strong>tom</strong>: um verde-lima é energético, um verde-escuro é sério, um verde-sálvia é calmo.</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="2" data-lesson="2.1" aria-roledescription="slide" aria-label="Como a cor comunica" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 2 · Aula 2.1</p>
+    <h2 class="title">Como a cor comunica</h2>
+    <p class="chip">Exemplo</p>
+    <div class="body"><ul>
+<li>❌ Padaria Ló em azul elétrico e roxo néon: parece uma discoteca, não uma padaria.</li>
+<li>✅ Padaria Ló em tons de trigo, terracota e creme: sente-se o pão quente.</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="2" data-lesson="2.1" aria-roledescription="slide" aria-label="Como a cor comunica" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 2 · Aula 2.1</p>
+    <h2 class="title">Como a cor comunica</h2>
+    <p class="chip">Dica prática</p>
+    <div class="body"><p>Volta às tuas 3 palavras. Para cada uma, pergunta: <em>&quot;Que cor é esta palavra?&quot;</em> As respostas dão-te o ponto de partida.</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="2" data-lesson="2.2" aria-roledescription="slide" aria-label="Construir uma paleta: a regra 60-30-10" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 2 · Aula 2.2</p>
+    <h2 class="title">Construir uma paleta: a regra 60-30-10</h2>
+    <p class="chip">Conceito</p>
+    <div class="body"><p>Não precisas de muitas cores. Uma paleta profissional tem normalmente:</p>
+<ul>
+<li><strong>1 cor principal</strong>: a que identifica a marca.</li>
+<li><strong>1 cor secundária</strong>: complementa a principal.</li>
+<li><strong>1 cor de destaque</strong>: para botões, preços, chamadas à ação. Usada com moderação.</li>
+<li><strong>2 neutros</strong>: um claro (fundo) e um escuro (texto).</li>
+</ul>
+<p>E usa-as na proporção <strong>60-30-10</strong>:</p>
+<ul>
+<li><strong>60%</strong>: cor dominante (normalmente um neutro ou a principal suave).</li>
+<li><strong>30%</strong>: cor secundária.</li>
+<li><strong>10%</strong>: cor de destaque.</li>
+</ul>
+<p>É a mesma regra da decoração de interiores: paredes, móveis, almofadas.</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="2" data-lesson="2.2" aria-roledescription="slide" aria-label="Construir uma paleta: a regra 60-30-10" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 2 · Aula 2.2</p>
+    <h2 class="title">Construir uma paleta: a regra 60-30-10</h2>
+    <p class="chip">Exemplo · Paleta da Padaria Ló</p>
+    <div class="body"><table>
+<thead>
+<tr>
+<th>Função</th>
+<th>Cor</th>
+<th>Código HEX</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Principal</td>
+<td>Trigo</td>
+<td><span class="swatch-wrap"><span class="swatch" style="--c:#D9A55B"></span><code>#D9A55B</code></span></td>
+</tr>
+<tr>
+<td>Secundária</td>
+<td>Terracota</td>
+<td><span class="swatch-wrap"><span class="swatch" style="--c:#B5573B"></span><code>#B5573B</code></span></td>
+</tr>
+<tr>
+<td>Destaque</td>
+<td>Verde-oliva</td>
+<td><span class="swatch-wrap"><span class="swatch" style="--c:#6B7A3A"></span><code>#6B7A3A</code></span></td>
+</tr>
+<tr>
+<td>Neutro claro</td>
+<td>Creme</td>
+<td><span class="swatch-wrap"><span class="swatch" style="--c:#F7F0E3"></span><code>#F7F0E3</code></span></td>
+</tr>
+<tr>
+<td>Neutro escuro</td>
+<td>Castanho-café</td>
+<td><span class="swatch-wrap"><span class="swatch" style="--c:#3B2A20"></span><code>#3B2A20</code></span></td>
+</tr>
+</tbody></table>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="2" data-lesson="2.2" aria-roledescription="slide" aria-label="Construir uma paleta: a regra 60-30-10" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 2 · Aula 2.2</p>
+    <h2 class="title">Construir uma paleta: a regra 60-30-10</h2>
+    <p class="chip">Dica prática</p>
+    <div class="body"><p>Ferramentas gratuitas para gerar e testar paletas: <strong>Coolors.co</strong>, <strong>Adobe Color</strong>, ou tira cores diretamente do teu moodboard com um conta-gotas. Grava sempre os <strong>códigos HEX</strong> (ex.: <span class="swatch-wrap"><span class="swatch" style="--c:#D9A55B"></span><code>#D9A55B</code></span>). É o que garante que a cor é igual em todo o lado.</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="2" data-lesson="2.3" aria-roledescription="slide" aria-label="Contraste e legibilidade" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 2 · Aula 2.3</p>
+    <h2 class="title">Contraste e legibilidade</h2>
+    <p class="chip">Conceito</p>
+    <div class="body"><p>Uma cor bonita que não se lê não serve. O <strong>contraste</strong> é a diferença de luminosidade entre o texto e o fundo. Quanto maior, mais fácil de ler.</p>
+<p>Regras simples:</p>
+<ul>
+<li><strong>Texto escuro em fundo claro</strong> (ou vice-versa) é sempre a opção mais segura.</li>
+<li>Evita combinar cores de <strong>luminosidade parecida</strong> (ex.: vermelho sobre verde, azul sobre roxo).</li>
+<li>Texto sobre fotografia: usa uma faixa ou sombra por trás, ou escolhe uma zona calma da foto.</li>
+<li>Muitas pessoas leem no telemóvel, ao sol, com pouca bateria. Desenha a pensar nisso.</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="2" data-lesson="2.3" aria-roledescription="slide" aria-label="Contraste e legibilidade" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 2 · Aula 2.3</p>
+    <h2 class="title">Contraste e legibilidade</h2>
+    <p class="chip">Exemplo</p>
+    <div class="body"><ul>
+<li>❌ Texto amarelo-claro sobre fundo branco: quase invisível.</li>
+<li>❌ Texto terracota sobre fundo trigo: as duas cores têm luminosidade parecida.</li>
+<li>✅ Texto castanho-café <span class="swatch-wrap"><span class="swatch" style="--c:#3B2A20"></span><code>#3B2A20</code></span> sobre creme <span class="swatch-wrap"><span class="swatch" style="--c:#F7F0E3"></span><code>#F7F0E3</code></span>: contraste forte, leitura fácil.</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="2" data-lesson="2.3" aria-roledescription="slide" aria-label="Contraste e legibilidade" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 2 · Aula 2.3</p>
+    <h2 class="title">Contraste e legibilidade</h2>
+    <p class="chip">Dica prática</p>
+    <div class="body"><p><strong>Teste do cinzento:</strong> converte a tua peça para preto e branco (ou tira um print e aplica um filtro cinzento). Se o texto deixar de se distinguir do fundo, o contraste é insuficiente. Para testes mais rigorosos: <strong>WebAIM Contrast Checker</strong> (gratuito).</p>
+</div>
+  </div>
+</section>
+<section class="slide exercise" data-disc="2" aria-roledescription="slide" aria-label="A tua paleta" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 2 · Exercício</p>
+    <h2 class="title">A tua paleta</h2>
+    <p class="chip">Mãos à obra</p>
+    <div class="body"><ol>
+<li>Com base nas tuas 3 palavras e no moodboard, escolhe <strong>3 cores</strong> (principal, secundária, destaque) e <strong>2 neutros</strong>.</li>
+<li>Regista os <strong>códigos HEX</strong> de cada uma.</li>
+<li>Faz o <strong>teste do cinzento</strong>: escreve o nome do teu negócio com o neutro escuro sobre o neutro claro, e com a principal sobre o neutro claro. Lê-se bem?</li>
+<li>Escreve ao lado de cada cor <strong>para que a vais usar</strong> (fundos, títulos, botões…).</li>
+</ol>
+<div class="ficha"><button class="copy" type="button">Copiar</button><pre><code>Principal:    ________  #______   uso: ____________
+Secundária:   ________  #______   uso: ____________
+Destaque:     ________  #______   uso: ____________
+Neutro claro: ________  #______   uso: ____________
+Neutro escuro:________  #______   uso: ____________
+</code></pre></div>
+</div>
+  </div>
+</section>
+<section class="slide quiz" data-disc="2" aria-roledescription="slide" aria-label="Testa o que aprendeste" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 2 · Mini quiz</p>
+    <h2 class="title">Testa o que aprendeste</h2>
+    
+    <div class="body"><div class="quiz"><fieldset class="q" data-correct="c">
+      <legend><span class="qn">1</span>Na regra 60-30-10, a cor de destaque ocupa…</legend>
+      <div class="opts"><button type="button" class="opt" data-key="a"><span class="ok">a</span>60%</button><button type="button" class="opt" data-key="b"><span class="ok">b</span>30%</button><button type="button" class="opt" data-key="c"><span class="ok">c</span>10%</button></div>
+      <p class="feedback" aria-live="polite"></p>
+    </fieldset><fieldset class="q" data-correct="a">
+      <legend><span class="qn">2</span>Porque devemos guardar os códigos HEX?</legend>
+      <div class="opts"><button type="button" class="opt" data-key="a"><span class="ok">a</span>Para a cor ser igual em todas as peças</button><button type="button" class="opt" data-key="b"><span class="ok">b</span>Porque é obrigatório</button><button type="button" class="opt" data-key="c"><span class="ok">c</span>Para imprimir mais barato</button></div>
+      <p class="feedback" aria-live="polite"></p>
+    </fieldset><fieldset class="q" data-correct="b">
+      <legend><span class="qn">3</span>Texto terracota sobre fundo trigo é uma boa escolha?</legend>
+      <div class="opts"><button type="button" class="opt" data-key="a"><span class="ok">a</span>Sim, são da mesma paleta</button><button type="button" class="opt" data-key="b"><span class="ok">b</span>Não, têm luminosidade parecida e pouco contraste</button></div>
+      <p class="feedback" aria-live="polite"></p>
+    </fieldset><p class="score" aria-live="polite"></p></div></div>
+  </div>
+</section>
+<section class="slide summary" data-disc="2" aria-roledescription="slide" aria-label="Cor" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 2 · Resumo</p>
+    <h2 class="title">Cor</h2>
+    
+    <div class="body"><ul>
+<li>A cor comunica antes do texto. Escolhe-a a partir das tuas 3 palavras.</li>
+<li>3 cores + 2 neutros chegam, na proporção 60-30-10.</li>
+<li>Guarda sempre os códigos HEX.</li>
+<li>Contraste primeiro, estética depois: faz o teste do cinzento.</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide cover" data-disc="3" data-anchor="d3" aria-roledescription="slide" aria-label="Tipografia" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 3</p>
+    <h2 class="title">Tipografia</h2>
+    
+    <div class="body"><p><strong>Objetivo:</strong> escolher e combinar fontes que transmitam a personalidade da marca e organizar a informação por importância.<br><strong>Duração:</strong> ~30 min · 3 aulas<br><strong>Peça que constróis:</strong> par de fontes + escala de tamanhos</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="3" data-lesson="3.1" aria-roledescription="slide" aria-label="Famílias de letra e o que transmitem" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 3 · Aula 3.1</p>
+    <h2 class="title">Famílias de letra e o que transmitem</h2>
+    <p class="chip">Conceito</p>
+    <div class="body"><p>A forma das letras tem personalidade, tal como a cor. As 5 grandes famílias:</p>
+<table>
+<thead>
+<tr>
+<th>Família</th>
+<th>Como é</th>
+<th>O que transmite</th>
+<th>Exemplos gratuitos</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Serifada</strong></td>
+<td>Com &quot;pezinhos&quot; nas pontas</td>
+<td>Tradição, confiança, elegância</td>
+<td><span class="specimen" style="font-family:'Playfair Display';font-weight:400">Playfair Display</span>, <span class="specimen" style="font-family:'Lora';font-weight:400">Lora</span>, <span class="specimen" style="font-family:'Merriweather';font-weight:400">Merriweather</span></td>
+</tr>
+<tr>
+<td><strong>Sem serifa</strong></td>
+<td>Linhas limpas, sem pés</td>
+<td>Moderno, claro, direto</td>
+<td><span class="specimen" style="font-family:'Inter';font-weight:400">Inter</span>, <span class="specimen" style="font-family:'Montserrat';font-weight:400">Montserrat</span>, <span class="specimen" style="font-family:'Poppins';font-weight:400">Poppins</span></td>
+</tr>
+<tr>
+<td><strong>Manuscrita</strong></td>
+<td>Imita escrita à mão</td>
+<td>Pessoal, artesanal, afetivo</td>
+<td><span class="specimen" style="font-family:'Caveat';font-weight:400">Caveat</span>, <span class="specimen" style="font-family:'Pacifico';font-weight:400">Pacifico</span>, <span class="specimen" style="font-family:'Dancing Script';font-weight:400">Dancing Script</span></td>
+</tr>
+<tr>
+<td><strong>Display/decorativa</strong></td>
+<td>Muito expressiva</td>
+<td>Impacto, carácter forte</td>
+<td><span class="specimen" style="font-family:'Bebas Neue';font-weight:400">Bebas Neue</span>, <span class="specimen" style="font-family:'Abril Fatface';font-weight:400">Abril Fatface</span></td>
+</tr>
+<tr>
+<td><strong>Monoespaçada</strong></td>
+<td>Todas as letras com a mesma largura</td>
+<td>Técnica, tecnológica</td>
+<td><span class="specimen" style="font-family:'Space Mono';font-weight:400">Space Mono</span>, <span class="specimen" style="font-family:'IBM Plex Mono';font-weight:400">IBM Plex Mono</span></td>
+</tr>
+</tbody></table>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="3" data-lesson="3.1" aria-roledescription="slide" aria-label="Famílias de letra e o que transmitem" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 3 · Aula 3.1</p>
+    <h2 class="title">Famílias de letra e o que transmitem</h2>
+    <p class="chip">Exemplo</p>
+    <div class="body"><ul>
+<li>❌ Padaria Ló numa fonte monoespaçada tipo código: parece uma empresa de software.</li>
+<li>✅ Padaria Ló numa serifada calorosa (Lora) ou numa manuscrita suave (Caveat): parece feita à mão, com tradição.</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="3" data-lesson="3.1" aria-roledescription="slide" aria-label="Famílias de letra e o que transmitem" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 3 · Aula 3.1</p>
+    <h2 class="title">Famílias de letra e o que transmitem</h2>
+    <p class="chip">Dica prática</p>
+    <div class="body"><p>Fontes <strong>manuscritas e decorativas</strong> são ótimas para títulos curtos e péssimas para texto corrido. Nunca escrevas um parágrafo inteiro com elas.<br>Fonte gratuita, legal e fácil de usar em qualquer lado: <strong>Google Fonts</strong> (fonts.google.com).</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="3" data-lesson="3.2" aria-roledescription="slide" aria-label="Combinar duas fontes" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 3 · Aula 3.2</p>
+    <h2 class="title">Combinar duas fontes</h2>
+    <p class="chip">Conceito</p>
+    <div class="body"><p>A regra de ouro: <strong>no máximo 2 fontes</strong>. Uma para títulos (com personalidade), outra para texto (legível). Mais do que isso parece desarrumado.</p>
+<p>Para combinar bem, procura <strong>contraste com harmonia</strong>:</p>
+<ul>
+<li>Serifada nos títulos + sem serifa no texto (ou o contrário). É a combinação mais segura.</li>
+<li>Manuscrita/decorativa nos títulos + sem serifa simples no texto.</li>
+<li><strong>Evita</strong> duas fontes parecidas mas não iguais (ex.: duas sem serifa diferentes). Parece um erro, não uma escolha.</li>
+</ul>
+<p>Truque: podes usar <strong>uma só família</strong> com pesos diferentes (Bold nos títulos, Regular no texto). É sempre coerente.</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="3" data-lesson="3.2" aria-roledescription="slide" aria-label="Combinar duas fontes" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 3 · Aula 3.2</p>
+    <h2 class="title">Combinar duas fontes</h2>
+    <p class="chip">Exemplo · Combinações que funcionam</p>
+    <div class="body"><table>
+<thead>
+<tr>
+<th>Títulos</th>
+<th>Texto</th>
+<th>Ambiente</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><span class="specimen" style="font-family:'Playfair Display';font-weight:400">Playfair Display</span></td>
+<td><span class="specimen" style="font-family:'Inter';font-weight:400">Inter</span></td>
+<td>Elegante e moderno</td>
+</tr>
+<tr>
+<td><span class="specimen" style="font-family:'Lora';font-weight:400">Lora</span></td>
+<td><span class="specimen" style="font-family:'Source Sans 3';font-weight:400">Source Sans 3</span></td>
+<td>Tradicional e legível</td>
+</tr>
+<tr>
+<td><span class="specimen" style="font-family:'Caveat';font-weight:400">Caveat</span></td>
+<td><span class="specimen" style="font-family:'Nunito';font-weight:400">Nunito</span></td>
+<td>Artesanal e simpático</td>
+</tr>
+<tr>
+<td><span class="specimen" style="font-family:'Bebas Neue';font-weight:400">Bebas Neue</span></td>
+<td><span class="specimen" style="font-family:'Montserrat';font-weight:400">Montserrat</span></td>
+<td>Forte e enérgico</td>
+</tr>
+<tr>
+<td><span class="specimen" style="font-family:'Montserrat';font-weight:700">Montserrat Bold</span></td>
+<td><span class="specimen" style="font-family:'Montserrat';font-weight:400">Montserrat Regular</span></td>
+<td>Limpo, uma só família</td>
+</tr>
+</tbody></table>
+<p><strong>Padaria Ló:</strong> títulos em <strong>Lora</strong> (tradição), texto em <strong>Nunito</strong> (simpático e legível), e <strong>Caveat</strong> pontualmente para pormenores tipo &quot;feito hoje&quot;.</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="3" data-lesson="3.2" aria-roledescription="slide" aria-label="Combinar duas fontes" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 3 · Aula 3.2</p>
+    <h2 class="title">Combinar duas fontes</h2>
+    <p class="chip">Dica prática</p>
+    <div class="body"><p>Testa sempre o par com texto real do teu negócio (nome, preços, morada), não com &quot;Lorem ipsum&quot;. Há fontes lindas que ficam estranhas com acentos portugueses (ç, ã, õ). Confirma que os têm!</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="3" data-lesson="3.3" aria-roledescription="slide" aria-label="Hierarquia: o que se lê primeiro" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 3 · Aula 3.3</p>
+    <h2 class="title">Hierarquia: o que se lê primeiro</h2>
+    <p class="chip">Conceito</p>
+    <div class="body"><p><strong>Hierarquia</strong> é a ordem em que os olhos leem uma peça. Quem olha decide em 2–3 segundos se continua. Por isso tem de ser óbvio o que é mais importante.</p>
+<p>Ferramentas para criar hierarquia:</p>
+<ol>
+<li><strong>Tamanho</strong>: o mais importante é o maior.</li>
+<li><strong>Peso</strong>: negrito destaca.</li>
+<li><strong>Cor</strong>: a cor de destaque chama a atenção (lembra-te: só 10%).</li>
+<li><strong>Espaço</strong>: elementos com mais espaço à volta ganham importância.</li>
+<li><strong>Posição</strong>: lemos de cima para baixo, da esquerda para a direita.</li>
+</ol>
+<p>Uma <strong>escala de tamanhos</strong> fixa evita improvisos. Exemplo simples (multiplica por ~1,5 a cada nível):</p>
+<table>
+<thead>
+<tr>
+<th>Nível</th>
+<th>Uso</th>
+<th>Tamanho (post 1080px)</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>H1</td>
+<td>Título principal</td>
+<td>72 px</td>
+</tr>
+<tr>
+<td>H2</td>
+<td>Subtítulo</td>
+<td>48 px</td>
+</tr>
+<tr>
+<td>H3</td>
+<td>Destaque / preço</td>
+<td>32 px</td>
+</tr>
+<tr>
+<td>Texto</td>
+<td>Informação</td>
+<td>24 px</td>
+</tr>
+<tr>
+<td>Pequeno</td>
+<td>Morada, notas</td>
+<td>18 px</td>
+</tr>
+</tbody></table>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="3" data-lesson="3.3" aria-roledescription="slide" aria-label="Hierarquia: o que se lê primeiro" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 3 · Aula 3.3</p>
+    <h2 class="title">Hierarquia: o que se lê primeiro</h2>
+    <p class="chip">Exemplo</p>
+    <div class="body"><ul>
+<li>❌ Flyer onde &quot;PROMOÇÃO&quot;, o nome da loja, o horário e a morada estão todos no mesmo tamanho e negrito. Nada se destaca, logo nada se lê.</li>
+<li>✅ &quot;Pão de Deus · 2 por 1€&quot; enorme, &quot;Só às sextas&quot; médio, nome e morada pequenos em baixo. Lê-se em 3 segundos.</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="3" data-lesson="3.3" aria-roledescription="slide" aria-label="Hierarquia: o que se lê primeiro" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 3 · Aula 3.3</p>
+    <h2 class="title">Hierarquia: o que se lê primeiro</h2>
+    <p class="chip">Dica prática</p>
+    <div class="body"><p><strong>Teste do semicerrar:</strong> afasta-te do ecrã e semicerra os olhos. O que ainda consegues ver é o que se lê primeiro. É isso que queres que se leia primeiro?</p>
+</div>
+  </div>
+</section>
+<section class="slide exercise" data-disc="3" aria-roledescription="slide" aria-label="As tuas fontes" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 3 · Exercício</p>
+    <h2 class="title">As tuas fontes</h2>
+    <p class="chip">Mãos à obra</p>
+    <div class="body"><ol>
+<li>Escolhe <strong>1 fonte para títulos</strong> e <strong>1 fonte para texto</strong> que combinem com as tuas 3 palavras (usa o Google Fonts).</li>
+<li>Confirma que têm acentos portugueses.</li>
+<li>Define a tua <strong>escala de 5 tamanhos</strong> (H1, H2, H3, texto, pequeno).</li>
+<li>Escreve um anúncio curto do teu negócio usando a hierarquia: título, subtítulo, 1 linha de texto, contacto. Faz o teste do semicerrar.</li>
+</ol>
+<div class="ficha"><button class="copy" type="button">Copiar</button><pre><code>Fonte de títulos: ____________  (porquê: ____________)
+Fonte de texto:   ____________
+Escala: H1 ___ · H2 ___ · H3 ___ · Texto ___ · Pequeno ___
+</code></pre></div>
+</div>
+  </div>
+</section>
+<section class="slide quiz" data-disc="3" aria-roledescription="slide" aria-label="Testa o que aprendeste" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 3 · Mini quiz</p>
+    <h2 class="title">Testa o que aprendeste</h2>
+    
+    <div class="body"><div class="quiz"><fieldset class="q" data-correct="b">
+      <legend><span class="qn">1</span>Quantas fontes, no máximo, deves usar numa marca?</legend>
+      <div class="opts"><button type="button" class="opt" data-key="a"><span class="ok">a</span>1</button><button type="button" class="opt" data-key="b"><span class="ok">b</span>2</button><button type="button" class="opt" data-key="c"><span class="ok">c</span>4</button></div>
+      <p class="feedback" aria-live="polite"></p>
+    </fieldset><fieldset class="q" data-correct="a">
+      <legend><span class="qn">2</span>Uma fonte manuscrita é boa para…</legend>
+      <div class="opts"><button type="button" class="opt" data-key="a"><span class="ok">a</span>Títulos curtos</button><button type="button" class="opt" data-key="b"><span class="ok">b</span>Parágrafos longos</button><button type="button" class="opt" data-key="c"><span class="ok">c</span>Tabelas de preços</button></div>
+      <p class="feedback" aria-live="polite"></p>
+    </fieldset><fieldset class="q" data-correct="a">
+      <legend><span class="qn">3</span>O que é a hierarquia?</legend>
+      <div class="opts"><button type="button" class="opt" data-key="a"><span class="ok">a</span>A ordem em que os olhos leem a informação</button><button type="button" class="opt" data-key="b"><span class="ok">b</span>O número de fontes</button><button type="button" class="opt" data-key="c"><span class="ok">c</span>O tamanho do documento</button></div>
+      <p class="feedback" aria-live="polite"></p>
+    </fieldset><p class="score" aria-live="polite"></p></div></div>
+  </div>
+</section>
+<section class="slide summary" data-disc="3" aria-roledescription="slide" aria-label="Tipografia" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 3 · Resumo</p>
+    <h2 class="title">Tipografia</h2>
+    
+    <div class="body"><ul>
+<li>Cada família de letra tem personalidade: escolhe pelas tuas 3 palavras.</li>
+<li>Máximo 2 fontes: uma com carácter para títulos, uma legível para texto.</li>
+<li>Confirma os acentos portugueses.</li>
+<li>Hierarquia = tamanho, peso, cor, espaço e posição. Usa uma escala fixa.</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide cover" data-disc="4" data-anchor="d4" aria-roledescription="slide" aria-label="Composição e layout" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 4</p>
+    <h2 class="title">Composição e layout</h2>
+    
+    <div class="body"><p><strong>Objetivo:</strong> organizar os elementos numa peça para que pareça profissional e se leia sem esforço.<br><strong>Duração:</strong> ~35 min · 4 aulas<br><strong>Peça que constróis:</strong> um flyer redesenhado (antes/depois)</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="4" data-lesson="4.1" aria-roledescription="slide" aria-label="Espaço em branco: o teu melhor amigo" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 4 · Aula 4.1</p>
+    <h2 class="title">Espaço em branco: o teu melhor amigo</h2>
+    <p class="chip">Conceito</p>
+    <div class="body"><p><strong>Espaço em branco</strong> (ou espaço negativo) é a área vazia à volta e entre os elementos. Não tem de ser branco: é simplesmente espaço sem nada.</p>
+<p>O erro número 1 de quem começa é <strong>encher tudo</strong>. O espaço vazio:</p>
+<ul>
+<li>Dá <strong>respiração</strong> e torna a peça mais fácil de ler.</li>
+<li>Transmite <strong>qualidade</strong>: as marcas de luxo usam muito espaço; os folhetos de saldos usam pouco.</li>
+<li><strong>Destaca</strong> o que é importante.</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="4" data-lesson="4.1" aria-roledescription="slide" aria-label="Espaço em branco: o teu melhor amigo" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 4 · Aula 4.1</p>
+    <h2 class="title">Espaço em branco: o teu melhor amigo</h2>
+    <p class="chip">Exemplo</p>
+    <div class="body"><ul>
+<li>❌ Post da Padaria Ló com foto, logótipo, 5 produtos, preços, horário, morada, telefone, Instagram e &quot;venha visitar-nos!&quot;. Não há um centímetro livre.</li>
+<li>✅ Post com uma foto de croissant, &quot;Croissants de manteiga · sábado&quot; e o logótipo pequeno no canto. O resto fica para a legenda.</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="4" data-lesson="4.1" aria-roledescription="slide" aria-label="Espaço em branco: o teu melhor amigo" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 4 · Aula 4.1</p>
+    <h2 class="title">Espaço em branco: o teu melhor amigo</h2>
+    <p class="chip">Dica prática</p>
+    <div class="body"><p><strong>Margens generosas:</strong> deixa pelo menos <strong>5–10% da largura</strong> livre em cada borda. Num post de 1080 px, isso é ~60–100 px. Se achares que &quot;está vazio demais&quot;, provavelmente está certo.</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="4" data-lesson="4.2" aria-roledescription="slide" aria-label="Alinhamento e grelha" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 4 · Aula 4.2</p>
+    <h2 class="title">Alinhamento e grelha</h2>
+    <p class="chip">Conceito</p>
+    <div class="body"><p>Nada deve ser colocado &quot;a olho&quot;. <strong>Cada elemento deve estar alinhado com outro.</strong> É isto que separa um trabalho amador de um profissional, mesmo que não se perceba porquê.</p>
+<ul>
+<li><strong>Escolhe um alinhamento e mantém-no.</strong> Alinhado à esquerda é o mais fácil de ler. Centrado funciona para peças curtas (convites, posts de uma frase).</li>
+<li><strong>Evita misturar</strong> centrado e à esquerda na mesma peça sem razão.</li>
+<li><strong>Grelha:</strong> linhas invisíveis que dividem a área em colunas. Uma grelha simples de 2 ou 3 colunas organiza tudo. Quase todos os programas têm guias ou réguas para isto.</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="4" data-lesson="4.2" aria-roledescription="slide" aria-label="Alinhamento e grelha" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 4 · Aula 4.2</p>
+    <h2 class="title">Alinhamento e grelha</h2>
+    <p class="chip">Exemplo</p>
+    <div class="body"><ul>
+<li>❌ Título centrado, texto à esquerda, preço à direita, logótipo meio desviado. Parece caótico.</li>
+<li>✅ Tudo alinhado pela mesma linha à esquerda, com a mesma margem. Parece arrumado e intencional.</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="4" data-lesson="4.2" aria-roledescription="slide" aria-label="Alinhamento e grelha" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 4 · Aula 4.2</p>
+    <h2 class="title">Alinhamento e grelha</h2>
+    <p class="chip">Dica prática</p>
+    <div class="body"><p>Ativa as <strong>guias/réguas</strong> do programa que usas e desenha sempre com elas. Em papel, risca linhas leves a lápis antes de começar.</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="4" data-lesson="4.3" aria-roledescription="slide" aria-label="Os 4 princípios: contraste, repetição, alinhamento, proximidade" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 4 · Aula 4.3</p>
+    <h2 class="title">Os 4 princípios: contraste, repetição, alinhamento, proximidade</h2>
+    <p class="chip">Conceito</p>
+    <div class="body"><p>Quatro princípios que resolvem 90% dos problemas de layout:</p>
+<ol>
+<li><strong>Contraste</strong>: se dois elementos são diferentes, torna-os <strong>muito</strong> diferentes (tamanho, cor, peso). Diferenças tímidas parecem erros.</li>
+<li><strong>Repetição</strong>: repete cores, fontes e estilos ao longo da peça e entre peças. É o que cria a sensação de marca.</li>
+<li><strong>Alinhamento</strong>: (aula anterior) tudo ligado visualmente a uma linha.</li>
+<li><strong>Proximidade</strong>: coisas relacionadas ficam <strong>juntas</strong>; coisas diferentes ficam <strong>separadas</strong>. O espaço entre elementos diz ao leitor o que pertence ao quê.</li>
+</ol>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="4" data-lesson="4.3" aria-roledescription="slide" aria-label="Os 4 princípios: contraste, repetição, alinhamento, proximidade" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 4 · Aula 4.3</p>
+    <h2 class="title">Os 4 princípios: contraste, repetição, alinhamento, proximidade</h2>
+    <p class="chip">Exemplo · Proximidade</p>
+    <div class="body"><ul>
+<li>❌ Morada, telefone, Instagram e horário espalhados por cantos diferentes do flyer.</li>
+<li>✅ Os quatro juntos num bloco &quot;Visita-nos&quot;, em baixo. O leitor sabe onde procurar.</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="4" data-lesson="4.3" aria-roledescription="slide" aria-label="Os 4 princípios: contraste, repetição, alinhamento, proximidade" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 4 · Aula 4.3</p>
+    <h2 class="title">Os 4 princípios: contraste, repetição, alinhamento, proximidade</h2>
+    <p class="chip">Dica prática</p>
+    <div class="body"><p>Antes de desenhar, agrupa a informação em papel: <strong>Bloco 1:</strong> mensagem principal · <strong>Bloco 2:</strong> detalhes · <strong>Bloco 3:</strong> contactos. Depois cada bloco fica junto, com espaço entre blocos.</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="4" data-lesson="4.4" aria-roledescription="slide" aria-label="O ponto focal" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 4 · Aula 4.4</p>
+    <h2 class="title">O ponto focal</h2>
+    <p class="chip">Conceito</p>
+    <div class="body"><p>Cada peça deve ter <strong>um</strong> ponto focal: o elemento que os olhos veem primeiro. Se tudo grita, nada se ouve.</p>
+<p>Formas de criar um ponto focal:</p>
+<ul>
+<li>Uma <strong>imagem grande</strong> e forte.</li>
+<li>Um <strong>título enorme</strong>.</li>
+<li>Uma <strong>cor de destaque</strong> num único sítio.</li>
+<li><strong>Isolamento</strong>: um elemento rodeado de espaço vazio.</li>
+</ul>
+<p>Depois do ponto focal, o olhar deve seguir um caminho natural: geralmente em <strong>Z</strong> (peças com pouco texto) ou em <strong>F</strong> (peças com mais texto).</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="4" data-lesson="4.4" aria-roledescription="slide" aria-label="O ponto focal" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 4 · Aula 4.4</p>
+    <h2 class="title">O ponto focal</h2>
+    <p class="chip">Exemplo</p>
+    <div class="body"><p>Flyer da Padaria Ló: ponto focal = foto de pão a fumegar (metade superior) → título &quot;Pão quente às 7h&quot; → bloco de contactos em baixo à direita. Caminho em Z.</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="4" data-lesson="4.4" aria-roledescription="slide" aria-label="O ponto focal" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 4 · Aula 4.4</p>
+    <h2 class="title">O ponto focal</h2>
+    <p class="chip">Dica prática</p>
+    <div class="body"><p>Pergunta a alguém: <em>&quot;O que viste primeiro?&quot;</em> Se a resposta não for o que querias, aumenta o contraste do ponto focal ou tira elementos que competem com ele.</p>
+</div>
+  </div>
+</section>
+<section class="slide exercise" data-disc="4" aria-roledescription="slide" aria-label="Antes e depois" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 4 · Exercício</p>
+    <h2 class="title">Antes e depois</h2>
+    <p class="chip">Mãos à obra</p>
+    <div class="body"><ol>
+<li>Pega numa peça antiga do teu negócio (um flyer, post, cartaz, menu). Se não tiveres, cria uma rapidamente sem pensar muito: vai ser o teu &quot;antes&quot;.</li>
+<li>Identifica os problemas com esta checklist:<ul>
+<li><input type="checkbox"> Tem espaço vazio suficiente e margens generosas?</li>
+<li><input type="checkbox"> Está tudo alinhado (um só alinhamento)?</li>
+<li><input type="checkbox"> A informação relacionada está agrupada?</li>
+<li><input type="checkbox"> Há um único ponto focal claro?</li>
+<li><input type="checkbox"> Usa só as tuas cores (Disciplina 2) e fontes (Disciplina 3)?</li>
+</ul>
+</li>
+<li>Redesenha-a (&quot;depois&quot;) a corrigir cada ponto.</li>
+<li>Coloca as duas lado a lado. Mostra a alguém e pergunta qual transmite mais confiança.</li>
+</ol>
+</div>
+  </div>
+</section>
+<section class="slide quiz" data-disc="4" aria-roledescription="slide" aria-label="Testa o que aprendeste" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 4 · Mini quiz</p>
+    <h2 class="title">Testa o que aprendeste</h2>
+    
+    <div class="body"><div class="quiz"><fieldset class="q" data-correct="b">
+      <legend><span class="qn">1</span>Qual é o erro mais comum de quem começa?</legend>
+      <div class="opts"><button type="button" class="opt" data-key="a"><span class="ok">a</span>Usar pouco texto</button><button type="button" class="opt" data-key="b"><span class="ok">b</span>Encher todo o espaço</button><button type="button" class="opt" data-key="c"><span class="ok">c</span>Usar margens grandes</button></div>
+      <p class="feedback" aria-live="polite"></p>
+    </fieldset><fieldset class="q" data-correct="a">
+      <legend><span class="qn">2</span>O princípio da proximidade diz que…</legend>
+      <div class="opts"><button type="button" class="opt" data-key="a"><span class="ok">a</span>Elementos relacionados devem ficar juntos</button><button type="button" class="opt" data-key="b"><span class="ok">b</span>Tudo deve estar centrado</button><button type="button" class="opt" data-key="c"><span class="ok">c</span>As imagens devem estar perto das margens</button></div>
+      <p class="feedback" aria-live="polite"></p>
+    </fieldset><fieldset class="q" data-correct="a">
+      <legend><span class="qn">3</span>Quantos pontos focais deve ter uma peça?</legend>
+      <div class="opts"><button type="button" class="opt" data-key="a"><span class="ok">a</span>Um</button><button type="button" class="opt" data-key="b"><span class="ok">b</span>Três</button><button type="button" class="opt" data-key="c"><span class="ok">c</span>Tantos quantos os produtos</button></div>
+      <p class="feedback" aria-live="polite"></p>
+    </fieldset><p class="score" aria-live="polite"></p></div></div>
+  </div>
+</section>
+<section class="slide summary" data-disc="4" aria-roledescription="slide" aria-label="Composição e layout" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 4 · Resumo</p>
+    <h2 class="title">Composição e layout</h2>
+    
+    <div class="body"><ul>
+<li>Espaço vazio não é desperdício: é o que torna a peça legível e profissional.</li>
+<li>Escolhe um alinhamento e usa guias. Nada &quot;a olho&quot;.</li>
+<li>Contraste, repetição, alinhamento e proximidade resolvem quase tudo.</li>
+<li>Um ponto focal por peça e um caminho claro para o olhar.</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide cover" data-disc="5" data-anchor="d5" aria-roledescription="slide" aria-label="Logótipo e identidade" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 5</p>
+    <h2 class="title">Logótipo e identidade</h2>
+    
+    <div class="body"><p><strong>Objetivo:</strong> criar um logótipo simples e funcional, com as variações necessárias para todos os usos.<br><strong>Duração:</strong> ~25 min · 3 aulas<br><strong>Peça que constróis:</strong> logótipo + variações (principal, ícone, monocromático)</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="5" data-lesson="5.1" aria-roledescription="slide" aria-label="Tipos de logótipo" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 5 · Aula 5.1</p>
+    <h2 class="title">Tipos de logótipo</h2>
+    <p class="chip">Conceito</p>
+    <div class="body"><p>Um logótipo não tem de ser um desenho complicado. Existem 5 tipos principais:</p>
+<table>
+<thead>
+<tr>
+<th>Tipo</th>
+<th>O que é</th>
+<th>Exemplo de estilo</th>
+<th>Bom para</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><strong>Logótipo tipográfico</strong></td>
+<td>Só o nome, numa fonte bem escolhida</td>
+<td>Nome escrito com carácter</td>
+<td>Nomes curtos e marcantes</td>
+</tr>
+<tr>
+<td><strong>Monograma</strong></td>
+<td>Iniciais</td>
+<td>&quot;PL&quot; entrelaçado</td>
+<td>Nomes longos</td>
+</tr>
+<tr>
+<td><strong>Símbolo</strong></td>
+<td>Um ícone sozinho</td>
+<td>Uma espiga, uma casa</td>
+<td>Marcas já conhecidas</td>
+</tr>
+<tr>
+<td><strong>Combinado</strong></td>
+<td>Símbolo + nome</td>
+<td>Espiga + &quot;Padaria Ló&quot;</td>
+<td><strong>A maioria dos pequenos negócios</strong></td>
+</tr>
+<tr>
+<td><strong>Emblema</strong></td>
+<td>Texto dentro de uma forma (selo, escudo)</td>
+<td>Selo circular &quot;Padaria Ló · desde 1987&quot;</td>
+<td>Marcas tradicionais, artesanais</td>
+</tr>
+</tbody></table>
+<p><strong>Para pequenos negócios, os mais práticos são o tipográfico e o combinado.</strong> São fáceis de fazer, de ler e de reproduzir.</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="5" data-lesson="5.1" aria-roledescription="slide" aria-label="Tipos de logótipo" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 5 · Aula 5.1</p>
+    <h2 class="title">Tipos de logótipo</h2>
+    <p class="chip">Exemplo</p>
+    <div class="body"><p>A Padaria Ló escolhe um <strong>logótipo combinado</strong>: uma espiga de trigo simples + &quot;Padaria Ló&quot; em Lora, na cor castanho-café. Para o Instagram usa só a espiga.</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="5" data-lesson="5.1" aria-roledescription="slide" aria-label="Tipos de logótipo" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 5 · Aula 5.1</p>
+    <h2 class="title">Tipos de logótipo</h2>
+    <p class="chip">Dica prática</p>
+    <div class="body"><p>Se não tens jeito para desenhar, faz um <strong>logótipo tipográfico</strong>: o teu nome, na tua fonte de títulos, na tua cor principal, com algum cuidado no espaçamento entre letras. Muitas marcas fortes são só isto.</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="5" data-lesson="5.2" aria-roledescription="slide" aria-label="Simplicidade e escala" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 5 · Aula 5.2</p>
+    <h2 class="title">Simplicidade e escala</h2>
+    <p class="chip">Conceito</p>
+    <div class="body"><p>Um bom logótipo funciona <strong>em todo o lado</strong>: num cartaz de 2 metros e num ícone de 32 píxeis no telemóvel. Para isso tem de ser:</p>
+<ul>
+<li><strong>Simples</strong>: poucos elementos, sem pormenores minúsculos.</li>
+<li><strong>Legível em pequeno</strong>: testa-o do tamanho de uma unha.</li>
+<li><strong>Funcional a uma cor</strong>: tem de funcionar em preto, em branco e numa só cor (para carimbos, bordados, faturas).</li>
+<li><strong>Sem efeitos</strong>: nada de sombras, brilhos, 3D ou gradientes complexos. Estes só se acrescentam pontualmente, nunca na versão base.</li>
+<li><strong>Intemporal</strong>: evita a fonte &quot;da moda&quot; deste ano.</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="5" data-lesson="5.2" aria-roledescription="slide" aria-label="Simplicidade e escala" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 5 · Aula 5.2</p>
+    <h2 class="title">Simplicidade e escala</h2>
+    <p class="chip">Exemplo</p>
+    <div class="body"><ul>
+<li>❌ Logótipo com um padeiro a segurar um cesto com 6 pães diferentes, sombras e texto curvo em 3 fontes. Em pequeno vira uma mancha.</li>
+<li>✅ Uma espiga com 5 linhas e o nome. Lê-se num carimbo, num saco de papel e no Instagram.</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="5" data-lesson="5.2" aria-roledescription="slide" aria-label="Simplicidade e escala" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 5 · Aula 5.2</p>
+    <h2 class="title">Simplicidade e escala</h2>
+    <p class="chip">Dica prática</p>
+    <div class="body"><p><strong>Teste dos 3 tamanhos:</strong> coloca o logótipo a 2 cm, a 1 cm e a 0,5 cm de largura. Se a 0,5 cm já não se percebe, simplifica, ou cria uma versão ícone (próxima aula).</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="5" data-lesson="5.3" aria-roledescription="slide" aria-label="As versões do logótipo" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 5 · Aula 5.3</p>
+    <h2 class="title">As versões do logótipo</h2>
+    <p class="chip">Conceito</p>
+    <div class="body"><p>Um logótipo não é uma só imagem: é um pequeno sistema. Precisas de:</p>
+<ol>
+<li><strong>Versão principal</strong>: a completa (símbolo + nome), na cor principal.</li>
+<li><strong>Versão horizontal e vertical</strong>: para espaços largos (cabeçalho de site) e altos (cartaz).</li>
+<li><strong>Ícone / símbolo</strong>: só o símbolo ou as iniciais, para foto de perfil e favicon.</li>
+<li><strong>Monocromática</strong>: toda a preto e toda a branco (para fundos escuros e fotos).</li>
+</ol>
+<p>E <strong>regras de uso</strong>:</p>
+<ul>
+<li><strong>Área de proteção</strong>: espaço mínimo à volta, onde não entra mais nada. Regra fácil: a altura de uma letra do nome.</li>
+<li><strong>Tamanho mínimo</strong>: abaixo do qual não se usa.</li>
+<li><strong>O que não fazer</strong>: esticar, mudar cores, rodar, pôr sobre fundos confusos.</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="5" data-lesson="5.3" aria-roledescription="slide" aria-label="As versões do logótipo" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 5 · Aula 5.3</p>
+    <h2 class="title">As versões do logótipo</h2>
+    <p class="chip">Exemplo · Sistema da Padaria Ló</p>
+    <div class="body"><table>
+<thead>
+<tr>
+<th>Versão</th>
+<th>Uso</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Espiga + &quot;Padaria Ló&quot; em castanho-café</td>
+<td>Fachada, sacos, flyers</td>
+</tr>
+<tr>
+<td>Espiga sozinha em trigo, fundo creme</td>
+<td>Instagram, Facebook, Google</td>
+</tr>
+<tr>
+<td>Tudo em branco</td>
+<td>Sobre fotos de pão</td>
+</tr>
+<tr>
+<td>Tudo em preto</td>
+<td>Faturas, carimbos</td>
+</tr>
+</tbody></table>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="5" data-lesson="5.3" aria-roledescription="slide" aria-label="As versões do logótipo" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 5 · Aula 5.3</p>
+    <h2 class="title">As versões do logótipo</h2>
+    <p class="chip">Dica prática</p>
+    <div class="body"><p>Guarda cada versão em <strong>PNG com fundo transparente</strong> (para uso digital) e, se possível, em <strong>SVG ou PDF</strong> (para impressão em qualquer tamanho sem perder qualidade). Organiza tudo numa pasta &quot;Logótipo&quot;.</p>
+</div>
+  </div>
+</section>
+<section class="slide exercise" data-disc="5" aria-roledescription="slide" aria-label="O teu logótipo" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 5 · Exercício</p>
+    <h2 class="title">O teu logótipo</h2>
+    <p class="chip">Mãos à obra</p>
+    <div class="body"><ol>
+<li>Escolhe o tipo: <strong>tipográfico</strong> ou <strong>combinado</strong> (recomendados).</li>
+<li>Faz 3 esboços rápidos em papel (5 minutos no total, sem perfecionismo).</li>
+<li>Escolhe o melhor e passa-o a limpo com a tua fonte de títulos e as tuas cores.</li>
+<li>Cria as variações: <strong>principal</strong>, <strong>ícone</strong>, <strong>preto</strong>, <strong>branco</strong>.</li>
+<li>Faz o <strong>teste dos 3 tamanhos</strong> e o <strong>teste a uma cor</strong>.</li>
+</ol>
+<blockquote>
+<p>⚠️ Nota legal: usa só fontes com licença comercial (todas as do Google Fonts têm) e não copies símbolos de outras marcas. Se o negócio crescer, vale a pena consultar o registo de marca no INPI.</p>
+</blockquote>
+</div>
+  </div>
+</section>
+<section class="slide quiz" data-disc="5" aria-roledescription="slide" aria-label="Testa o que aprendeste" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 5 · Mini quiz</p>
+    <h2 class="title">Testa o que aprendeste</h2>
+    
+    <div class="body"><div class="quiz"><fieldset class="q" data-correct="b">
+      <legend><span class="qn">1</span>Qual é o tipo de logótipo mais prático para a maioria dos pequenos negócios?</legend>
+      <div class="opts"><button type="button" class="opt" data-key="a"><span class="ok">a</span>Emblema complexo</button><button type="button" class="opt" data-key="b"><span class="ok">b</span>Combinado (símbolo + nome) ou tipográfico</button><button type="button" class="opt" data-key="c"><span class="ok">c</span>Só símbolo</button></div>
+      <p class="feedback" aria-live="polite"></p>
+    </fieldset><fieldset class="q" data-correct="b">
+      <legend><span class="qn">2</span>Um bom logótipo deve funcionar…</legend>
+      <div class="opts"><button type="button" class="opt" data-key="a"><span class="ok">a</span>Só a cores</button><button type="button" class="opt" data-key="b"><span class="ok">b</span>Também a uma cor e em tamanho pequeno</button><button type="button" class="opt" data-key="c"><span class="ok">c</span>Só em tamanho grande</button></div>
+      <p class="feedback" aria-live="polite"></p>
+    </fieldset><fieldset class="q" data-correct="a">
+      <legend><span class="qn">3</span>Para que serve a versão ícone?</legend>
+      <div class="opts"><button type="button" class="opt" data-key="a"><span class="ok">a</span>Foto de perfil e espaços pequenos</button><button type="button" class="opt" data-key="b"><span class="ok">b</span>Fachadas</button><button type="button" class="opt" data-key="c"><span class="ok">c</span>Nada, é opcional</button></div>
+      <p class="feedback" aria-live="polite"></p>
+    </fieldset><p class="score" aria-live="polite"></p></div></div>
+  </div>
+</section>
+<section class="slide summary" data-disc="5" aria-roledescription="slide" aria-label="Logótipo e identidade" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 5 · Resumo</p>
+    <h2 class="title">Logótipo e identidade</h2>
+    
+    <div class="body"><ul>
+<li>Logótipo tipográfico ou combinado: simples, eficaz e fácil de fazer.</li>
+<li>Tem de funcionar pequeno, a uma cor e sem efeitos.</li>
+<li>Cria um sistema: principal, ícone, preto e branco.</li>
+<li>Define área de proteção e tamanho mínimo, e guarda em PNG + SVG/PDF.</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide cover" data-disc="6" data-anchor="d6" aria-roledescription="slide" aria-label="Design no dia a dia" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 6</p>
+    <h2 class="title">Design no dia a dia</h2>
+    
+    <div class="body"><p><strong>Objetivo:</strong> aplicar tudo o que aprendeste a peças reais e garantir que a marca se mantém coerente ao longo do tempo.<br><strong>Duração:</strong> ~35 min · 4 aulas<br><strong>Peça que constróis:</strong> guia de marca de 1 página + 3 peças reais</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="6" data-lesson="6.1" aria-roledescription="slide" aria-label="Posts para redes sociais" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 6 · Aula 6.1</p>
+    <h2 class="title">Posts para redes sociais</h2>
+    <p class="chip">Conceito</p>
+    <div class="body"><p>As redes sociais são onde a tua marca aparece mais vezes, por isso é onde a consistência mais conta. Quem faz scroll decide em <strong>menos de 1 segundo</strong> se para.</p>
+<p>Regras para posts:</p>
+<ul>
+<li><strong>Uma mensagem por post.</strong> O resto vai na legenda.</li>
+<li><strong>Texto grande e curto</strong>: máximo ~7 palavras na imagem. Tem de se ler no telemóvel.</li>
+<li><strong>Imagem forte</strong> como ponto focal (fotos reais do teu negócio valem mais do que fotos de banco).</li>
+<li><strong>Logótipo pequeno</strong> e sempre no mesmo sítio, ou ausente. Não precisa de estar em todos.</li>
+<li><strong>Cria 2–3 modelos</strong> (ex.: &quot;produto&quot;, &quot;frase/aviso&quot;, &quot;promoção&quot;) e reutiliza-os. É o segredo de um feed coerente e poupa horas.</li>
+</ul>
+<p>Tamanhos atuais mais usados:</p>
+<table>
+<thead>
+<tr>
+<th>Formato</th>
+<th>Tamanho</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Post Instagram/Facebook (vertical)</td>
+<td>1080 × 1350 px</td>
+</tr>
+<tr>
+<td>Post quadrado</td>
+<td>1080 × 1080 px</td>
+</tr>
+<tr>
+<td>Stories / Reels / TikTok</td>
+<td>1080 × 1920 px</td>
+</tr>
+<tr>
+<td>Capa de Facebook</td>
+<td>1640 × 856 px (ver zona segura no telemóvel)</td>
+</tr>
+</tbody></table>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="6" data-lesson="6.1" aria-roledescription="slide" aria-label="Posts para redes sociais" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 6 · Aula 6.1</p>
+    <h2 class="title">Posts para redes sociais</h2>
+    <p class="chip">Exemplo · Modelos da Padaria Ló</p>
+    <div class="body"><ol>
+<li><strong>Produto:</strong> foto a toda a largura + nome do produto em Lora, faixa creme em baixo.</li>
+<li><strong>Aviso:</strong> fundo terracota, frase grande em creme, espiga pequena no canto. Ex.: &quot;Fechados dia 25 · Bom Natal!&quot;</li>
+<li><strong>Promoção:</strong> fundo creme, preço gigante em verde-oliva (o destaque), foto pequena do produto.</li>
+</ol>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="6" data-lesson="6.1" aria-roledescription="slide" aria-label="Posts para redes sociais" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 6 · Aula 6.1</p>
+    <h2 class="title">Posts para redes sociais</h2>
+    <p class="chip">Dica prática</p>
+    <div class="body"><p>Em Stories e Reels, deixa <strong>~250 px livres em cima e em baixo</strong>: é onde a aplicação põe botões e o nome da conta.</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="6" data-lesson="6.2" aria-roledescription="slide" aria-label="Cartão de visita, flyer e menu" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 6 · Aula 6.2</p>
+    <h2 class="title">Cartão de visita, flyer e menu</h2>
+    <p class="chip">Conceito</p>
+    <div class="body"><p>Peças impressas seguem as mesmas regras, com três cuidados extra:</p>
+<ol>
+<li><strong>Margem de corte (sangria):</strong> se a cor ou a imagem vai até à borda, estende-a <strong>3 mm</strong> para fora do tamanho final. A gráfica corta aí.</li>
+<li><strong>Margem de segurança:</strong> mantém textos importantes a pelo menos <strong>3–5 mm</strong> da borda.</li>
+<li><strong>Cores e resolução:</strong> exporta em <strong>PDF de alta qualidade</strong> (300 dpi). As cores no papel ficam ligeiramente diferentes do ecrã. Se a gráfica pedir <strong>CMYK</strong>, converte (ou pede-lhes para o fazerem) e, se possível, pede uma prova.</li>
+</ol>
+<table>
+<thead>
+<tr>
+<th>Peça</th>
+<th>Tamanho comum</th>
+<th>Conteúdo essencial</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>Cartão de visita</td>
+<td>85 × 55 mm</td>
+<td>Logótipo, nome, contacto, 1 rede social. Mais nada.</td>
+</tr>
+<tr>
+<td>Flyer</td>
+<td>A5 (148 × 210 mm)</td>
+<td>Uma mensagem, imagem, chamada à ação, contactos</td>
+</tr>
+<tr>
+<td>Menu / tabela de preços</td>
+<td>A4 ou A3</td>
+<td>Categorias claras, preços alinhados, fácil de percorrer</td>
+</tr>
+</tbody></table>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="6" data-lesson="6.2" aria-roledescription="slide" aria-label="Cartão de visita, flyer e menu" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 6 · Aula 6.2</p>
+    <h2 class="title">Cartão de visita, flyer e menu</h2>
+    <p class="chip">Exemplo</p>
+    <div class="body"><p>Cartão da Padaria Ló: frente com o logótipo centrado sobre fundo creme; verso com morada, horário e Instagram em Nunito, alinhados à esquerda, com muito espaço.</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="6" data-lesson="6.2" aria-roledescription="slide" aria-label="Cartão de visita, flyer e menu" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 6 · Aula 6.2</p>
+    <h2 class="title">Cartão de visita, flyer e menu</h2>
+    <p class="chip">Dica prática</p>
+    <div class="body"><p>Num menu, <strong>alinha os preços à direita</strong> numa coluna e não uses &quot;€&quot; maior do que o número. Ajuda a ler e a comparar.</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="6" data-lesson="6.3" aria-roledescription="slide" aria-label="O guia de marca de 1 página" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 6 · Aula 6.3</p>
+    <h2 class="title">O guia de marca de 1 página</h2>
+    <p class="chip">Conceito</p>
+    <div class="body"><p>O <strong>guia de marca</strong> junta numa só página todas as decisões que tomaste. Serve para:</p>
+<ul>
+<li>Nunca mais improvisares (&quot;que verde era aquele?&quot;).</li>
+<li>Passar a marca a alguém (um funcionário, uma gráfica, um designer no futuro).</li>
+<li>Manter tudo coerente durante anos.</li>
+</ul>
+<p>O que deve ter:</p>
+<ol>
+<li><strong>Essência:</strong> o que faço, para quem, as 3 palavras.</li>
+<li><strong>Logótipo:</strong> versões e o que não fazer.</li>
+<li><strong>Cores:</strong> a paleta com códigos HEX e proporções.</li>
+<li><strong>Fontes:</strong> títulos e texto, com a escala de tamanhos.</li>
+<li><strong>Estilo de imagem:</strong> que tipo de fotos usar (luz, ambiente, o que evitar).</li>
+<li><strong>Tom de voz:</strong> como falas (tu/você, formal/descontraído, 2–3 frases exemplo).</li>
+</ol>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="6" data-lesson="6.3" aria-roledescription="slide" aria-label="O guia de marca de 1 página" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 6 · Aula 6.3</p>
+    <h2 class="title">O guia de marca de 1 página</h2>
+    <p class="chip">Exemplo · Guia da Padaria Ló (resumo)</p>
+    <div class="body"><blockquote>
+<p><strong>Essência:</strong> padaria de bairro para famílias e trabalhadores. <em>Acolhedora, tradicional, fresca.</em><br><strong>Logótipo:</strong> espiga + nome. Ícone: espiga. Não esticar, não pôr sobre fotos confusas.<br><strong>Cores:</strong> Trigo <span class="swatch-wrap"><span class="swatch" style="--c:#D9A55B"></span><code>#D9A55B</code></span> · Terracota <span class="swatch-wrap"><span class="swatch" style="--c:#B5573B"></span><code>#B5573B</code></span> · Oliva <span class="swatch-wrap"><span class="swatch" style="--c:#6B7A3A"></span><code>#6B7A3A</code></span> · Creme <span class="swatch-wrap"><span class="swatch" style="--c:#F7F0E3"></span><code>#F7F0E3</code></span> · Café <span class="swatch-wrap"><span class="swatch" style="--c:#3B2A20"></span><code>#3B2A20</code></span><br><strong>Fontes:</strong> Lora (títulos) · Nunito (texto) · Caveat (pormenores)<br><strong>Fotos:</strong> luz natural da manhã, mãos, farinha, madeira. Nada de fotos de banco com pessoas a sorrir para a câmara.<br><strong>Tom:</strong> próximo e caloroso, trata por &quot;tu&quot;. <em>&quot;O teu pão está a sair do forno.&quot;</em></p>
+</blockquote>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="6" data-lesson="6.3" aria-roledescription="slide" aria-label="O guia de marca de 1 página" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 6 · Aula 6.3</p>
+    <h2 class="title">O guia de marca de 1 página</h2>
+    <p class="chip">Dica prática</p>
+    <div class="body"><p>Imprime o guia e cola-o perto de onde trabalhas. Abre-o sempre que fizeres uma peça nova.</p>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="6" data-lesson="6.4" aria-roledescription="slide" aria-label="Os erros mais comuns (e a checklist final)" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 6 · Aula 6.4</p>
+    <h2 class="title">Os erros mais comuns (e a checklist final)</h2>
+    <p class="chip">Conceito</p>
+    <div class="body"><p>Os 10 erros que mais denunciam um design amador:</p>
+<ol>
+<li>Demasiadas fontes (mais de 2).</li>
+<li>Demasiadas cores, ou cores fora da paleta.</li>
+<li>Falta de espaço vazio: tudo encostado às bordas.</li>
+<li>Elementos desalinhados, colocados &quot;a olho&quot;.</li>
+<li>Texto pouco legível: pequeno, sem contraste, sobre fotos confusas.</li>
+<li>Sem ponto focal: tudo do mesmo tamanho.</li>
+<li>Imagens pixelizadas ou esticadas (deformadas).</li>
+<li>Logótipo esticado, com cores trocadas ou sem área de proteção.</li>
+<li>Efeitos a mais: sombras, contornos, brilhos, WordArt.</li>
+<li>Erros ortográficos. Um erro destrói a confiança mais depressa do que um mau design.</li>
+</ol>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="6" data-lesson="6.4" aria-roledescription="slide" aria-label="Os erros mais comuns (e a checklist final)" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 6 · Aula 6.4</p>
+    <h2 class="title">Os erros mais comuns (e a checklist final)</h2>
+    <p class="chip">✅ Checklist antes de publicar ou imprimir</p>
+    <div class="body"><ul>
+<li><input type="checkbox"> A mensagem principal percebe-se em 3 segundos?</li>
+<li><input type="checkbox"> Há um único ponto focal?</li>
+<li><input type="checkbox"> Uso só as minhas cores e as minhas 2 fontes?</li>
+<li><input type="checkbox"> Está tudo alinhado e com margens generosas?</li>
+<li><input type="checkbox"> O texto lê-se no telemóvel (ou a 1 metro, se impresso)?</li>
+<li><input type="checkbox"> As imagens estão nítidas e com as proporções certas?</li>
+<li><input type="checkbox"> O logótipo está correto e com espaço à volta?</li>
+<li><input type="checkbox"> Revi a ortografia, o preço, a data e os contactos?</li>
+<li><input type="checkbox"> Combina com as minhas 3 palavras?</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide content" data-disc="6" data-lesson="6.4" aria-roledescription="slide" aria-label="Os erros mais comuns (e a checklist final)" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 6 · Aula 6.4</p>
+    <h2 class="title">Os erros mais comuns (e a checklist final)</h2>
+    <p class="chip">Dica prática</p>
+    <div class="body"><p>Antes de publicar, <strong>espera 10 minutos e volta a olhar</strong>, ou mostra a alguém que não conhece a peça. Os erros saltam à vista com olhos frescos.</p>
+</div>
+  </div>
+</section>
+<section class="slide exercise" data-disc="6" aria-roledescription="slide" aria-label="O teu kit de marca" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 6 · Exercício</p>
+    <h2 class="title">O teu kit de marca</h2>
+    <p class="chip">Exercício final</p>
+    <div class="body"><ol>
+<li>Monta o teu <strong>guia de marca de 1 página</strong> com tudo o que criaste nas disciplinas 1 a 5.</li>
+<li>Cria <strong>3 peças reais</strong> usando só o guia:<ul>
+<li>1 post para redes sociais (usando um modelo reutilizável).</li>
+<li>1 peça impressa (cartão de visita ou flyer).</li>
+<li>1 peça à tua escolha (story, menu, tabela de preços, assinatura de email…).</li>
+</ul>
+</li>
+<li>Passa as 3 peças pela <strong>checklist</strong>.</li>
+<li>Coloca o guia e as 3 peças lado a lado. Parecem da mesma marca? Se sim: parabéns, tens uma identidade visual. 🎉</li>
+</ol>
+</div>
+  </div>
+</section>
+<section class="slide quiz" data-disc="6" aria-roledescription="slide" aria-label="Testa o que aprendeste" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 6 · Mini quiz</p>
+    <h2 class="title">Testa o que aprendeste</h2>
+    
+    <div class="body"><div class="quiz"><fieldset class="q" data-correct="a">
+      <legend><span class="qn">1</span>Quantas palavras, no máximo, deve ter o texto na imagem de um post?</legend>
+      <div class="opts"><button type="button" class="opt" data-key="a"><span class="ok">a</span>Cerca de 7</button><button type="button" class="opt" data-key="b"><span class="ok">b</span>Cerca de 30</button><button type="button" class="opt" data-key="c"><span class="ok">c</span>Não há limite</button></div>
+      <p class="feedback" aria-live="polite"></p>
+    </fieldset><fieldset class="q" data-correct="a">
+      <legend><span class="qn">2</span>O que é a margem de corte (sangria)?</legend>
+      <div class="opts"><button type="button" class="opt" data-key="a"><span class="ok">a</span>3 mm extra de cor/imagem para fora do tamanho final</button><button type="button" class="opt" data-key="b"><span class="ok">b</span>O espaço entre colunas</button><button type="button" class="opt" data-key="c"><span class="ok">c</span>Um tipo de papel</button></div>
+      <p class="feedback" aria-live="polite"></p>
+    </fieldset><fieldset class="q" data-correct="b">
+      <legend><span class="qn">3</span>Para que serve o guia de marca?</legend>
+      <div class="opts"><button type="button" class="opt" data-key="a"><span class="ok">a</span>Para decorar o escritório</button><button type="button" class="opt" data-key="b"><span class="ok">b</span>Para manter todas as peças coerentes e não improvisar</button><button type="button" class="opt" data-key="c"><span class="ok">c</span>Só para grandes empresas</button></div>
+      <p class="feedback" aria-live="polite"></p>
+    </fieldset><p class="score" aria-live="polite"></p></div></div>
+  </div>
+</section>
+<section class="slide summary" data-disc="6" aria-roledescription="slide" aria-label="Design no dia a dia" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Disciplina 6 · Resumo</p>
+    <h2 class="title">Design no dia a dia</h2>
+    
+    <div class="body"><ul>
+<li>Cria modelos reutilizáveis para as redes sociais: coerência e tempo poupado.</li>
+<li>No impresso: sangria de 3 mm, margem de segurança e PDF em alta qualidade.</li>
+<li>O guia de marca de 1 página reúne todas as decisões. Usa-o sempre.</li>
+<li>Antes de publicar, passa pela checklist.</li>
+</ul>
+</div>
+  </div>
+</section>
+<section class="slide cover end" data-disc="6" aria-roledescription="slide" aria-label="Conclusão do curso" hidden>
+  <div class="slide-inner">
+    <p class="kicker">Fim do curso</p>
+    <h2 class="title">Conclusão do curso</h2>
+    
+    <div class="body"><p>Em 3 horas passaste de &quot;não sei por onde começar&quot; para ter:</p>
+<ul>
+<li>Uma marca com personalidade definida.</li>
+<li>Paleta, fontes e logótipo próprios.</li>
+<li>Um guia de marca e modelos prontos a usar.</li>
+<li>Um método e uma checklist para qualquer peça futura.</li>
+</ul>
+<p>O design melhora com a prática: cada peça que fizeres com o teu guia vai sair melhor do que a anterior. Bom trabalho!</p>
+</div>
+  </div>
+</section>
+</main>
+
+<footer class="bottombar">
+  <button class="prev" type="button" aria-label="Slide anterior" title="Anterior (←)">←</button>
+  <div class="progress" role="progressbar" aria-valuemin="1" aria-valuemax="94"><span></span></div>
+  <p class="count"><span class="n">1</span> / 94</p>
+  <button class="next" type="button" aria-label="Slide seguinte" title="Seguinte (→)">→</button>
+</footer>
+
+<script src="vendor/three.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

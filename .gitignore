@@ -8,3 +8,6 @@ frames/
 .DS_Store
 Thumbs.db
 desktop.ini
+
+# Dependências da apresentação
+node_modules/

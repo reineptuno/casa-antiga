@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="pt-PT">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Design para o Teu Negócio</title>
+<meta name="description" content="Curso prático de design gráfico para empreendedores e pequenos negócios.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="{{FONTS_URL}}">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body data-disc="0">
+<canvas id="bg" aria-hidden="true"></canvas>
+
+<header class="topbar">
+  <button class="menu-btn" type="button" aria-expanded="false" aria-controls="menu" title="Índice (M)">
+    <span></span><span></span><span></span><span class="sr">Índice</span>
+  </button>
+  <a class="brand" href="#/1">Design <em>para o</em> Teu Negócio</a>
+  <p class="where" aria-live="polite"></p>
+</header>
+
+<nav id="menu" class="menu" aria-label="Índice do curso" hidden>
+  <ol>{{NAV}}</ol>
+</nav>
+
+<main class="deck" aria-live="polite">
+{{SLIDES}}
+</main>
+
+<footer class="bottombar">
+  <button class="prev" type="button" aria-label="Slide anterior" title="Anterior (←)">←</button>
+  <div class="progress" role="progressbar" aria-valuemin="1" aria-valuemax="{{TOTAL}}"><span></span></div>
+  <p class="count"><span class="n">1</span> / {{TOTAL}}</p>
+  <button class="next" type="button" aria-label="Slide seguinte" title="Seguinte (→)">→</button>
+</footer>
+
+<script src="vendor/three.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
